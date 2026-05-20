@@ -16,11 +16,15 @@
         <activity android:name=".MemoriaInternaActivity"/>
         <activity android:name=".MemoriaSDActivity"/>
         <activity android:name=".SQLiteActivity"/>
+       <!-- <activity android:name=".ListaFragmentosActivity"/> -->
+        <!-- Cambiar despues a ".MainActivity" abajo  -->
+
 
 
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ListaFragmentosActivity"
+            android:exported="true"
+            tools:ignore="DuplicateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
